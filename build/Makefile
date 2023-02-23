@@ -129,6 +129,43 @@ pose_interpolation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_interpolation.dir/build.make CMakeFiles/pose_interpolation.dir/build
 .PHONY : pose_interpolation/fast
 
+#=============================================================================
+# Target rules for targets named computescale
+
+# Build rule for target.
+computescale: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 computescale
+.PHONY : computescale
+
+# fast build rule for target.
+computescale/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/build
+.PHONY : computescale/fast
+
+ComputeScale.o: ComputeScale.cpp.o
+.PHONY : ComputeScale.o
+
+# target to build an object file
+ComputeScale.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/ComputeScale.cpp.o
+.PHONY : ComputeScale.cpp.o
+
+ComputeScale.i: ComputeScale.cpp.i
+.PHONY : ComputeScale.i
+
+# target to preprocess a source file
+ComputeScale.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/ComputeScale.cpp.i
+.PHONY : ComputeScale.cpp.i
+
+ComputeScale.s: ComputeScale.cpp.s
+.PHONY : ComputeScale.s
+
+# target to generate assembly for a file
+ComputeScale.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/ComputeScale.cpp.s
+.PHONY : ComputeScale.cpp.s
+
 pose_interpolation.o: pose_interpolation.cpp.o
 .PHONY : pose_interpolation.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... computescale"
 	@echo "... pose_interpolation"
+	@echo "... ComputeScale.o"
+	@echo "... ComputeScale.i"
+	@echo "... ComputeScale.s"
 	@echo "... pose_interpolation.o"
 	@echo "... pose_interpolation.i"
 	@echo "... pose_interpolation.s"

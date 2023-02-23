@@ -14,4 +14,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(pose_interpolation pose_interpolation.cpp)
 
+add_executable(computescale ComputeScale.cpp)
+
+target_link_libraries(computescale Eigen3::Eigen ${OpenCV_LIBS})
 target_link_libraries(pose_interpolation Eigen3::Eigen ${OpenCV_LIBS})

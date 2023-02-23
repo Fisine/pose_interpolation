@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/zy/SFM_Data/timesample/build
 
 # The main recursive "all" target.
 all: CMakeFiles/pose_interpolation.dir/all
+all: CMakeFiles/computescale.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/pose_interpolation.dir/clean
+clean: CMakeFiles/computescale.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/pose_interpolation.dir/clean
 CMakeFiles/pose_interpolation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_interpolation.dir/build.make CMakeFiles/pose_interpolation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_interpolation.dir/build.make CMakeFiles/pose_interpolation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zy/SFM_Data/timesample/build/CMakeFiles --progress-num=1,2 "Built target pose_interpolation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zy/SFM_Data/timesample/build/CMakeFiles --progress-num=3,4 "Built target pose_interpolation"
 .PHONY : CMakeFiles/pose_interpolation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ pose_interpolation: CMakeFiles/pose_interpolation.dir/rule
 CMakeFiles/pose_interpolation.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pose_interpolation.dir/build.make CMakeFiles/pose_interpolation.dir/clean
 .PHONY : CMakeFiles/pose_interpolation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/computescale.dir
+
+# All Build rule for target.
+CMakeFiles/computescale.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zy/SFM_Data/timesample/build/CMakeFiles --progress-num=1,2 "Built target computescale"
+.PHONY : CMakeFiles/computescale.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/computescale.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/SFM_Data/timesample/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/computescale.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/SFM_Data/timesample/build/CMakeFiles 0
+.PHONY : CMakeFiles/computescale.dir/rule
+
+# Convenience name for target.
+computescale: CMakeFiles/computescale.dir/rule
+.PHONY : computescale
+
+# clean rule for target.
+CMakeFiles/computescale.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/computescale.dir/build.make CMakeFiles/computescale.dir/clean
+.PHONY : CMakeFiles/computescale.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
