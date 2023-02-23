@@ -1,0 +1,3 @@
+/home/zy/SFM_Data/timesample/build/CMakeFiles/pose_interpolation.dir
+/home/zy/SFM_Data/timesample/build/CMakeFiles/edit_cache.dir
+/home/zy/SFM_Data/timesample/build/CMakeFiles/rebuild_cache.dir
